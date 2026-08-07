@@ -1,0 +1,66 @@
+.contato {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+  .contato h1 {
+    color: #D4AF37;
+    font-size: 42px;
+  }
+
+.subtitulo {
+  color: #F8E7D8;
+  font-size: 20px;
+}
+
+.contato-box {
+  background: #121212;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.btn-whats {
+  display: inline-block;
+  background: #25d366;
+  color: white;
+  padding: 16px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.contato-box p {
+  color: #F8E7D8;
+  margin: 12px 0;
+  font-size: 19px;
+}
+.btn-whats,
+.btn-instagram {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  padding: 16px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.btn-whats {
+  background: #25d366;
+  margin-right: 15px;
+}
+
+.btn-instagram {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+}
+
+  .btn-whats i,
+  .btn-instagram i {
+    font-size: 22px;
+  }

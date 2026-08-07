@@ -1,0 +1,56 @@
+.pagamento {
+  padding: 60px 20px;
+  text-align: center;
+
+}
+
+  .pagamento h1 {
+    color: #D4AF37;
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-weight: bold
+  }
+
+.subtitulo {
+  color: #F8E7D8;
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.cards-pagamento {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.card {
+  background: #121212;
+  border-radius: 18px;
+  padding: 25px;
+  width: 260px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+  .card h2 {
+    color: #b04d6d;
+    margin-bottom: 12px;
+  }
+
+  .card p {
+    color: #F8E7D8;
+    line-height: 1.6;
+  }
+
+.aviso {
+  margin-top: 40px;
+  background: #ddd;
+  border-left: 5px solid #d88ca1;
+  padding: 20px;
+  border-radius: 12px;
+  color: #555;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}

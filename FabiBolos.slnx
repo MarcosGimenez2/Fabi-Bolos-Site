@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="fabibolos.client/fabibolos.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="FabiBolos.Server/FabiBolos.Server.csproj" />
+</Solution>

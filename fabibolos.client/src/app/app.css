@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('/images/hero-background.jpg') center center / cover no-repeat fixed;
+}
+
+.menu {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 40px;
+  box-shadow: 0 2px 12px rgba(0,0,0,.08);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #b04d6d;
+}
+
+.menu-links {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+  .menu-links a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    transition: .2s;
+  }
+
+    .menu-links a:hover,
+    .menu-links a.ativo {
+      color: #b04d6d;
+    }
+
+.menu-whats {
+  background: #25d366;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.conteudo {
+  min-height: calc(100vh - 80px);
+  padding: 40px;
+  background: transparent !important;
+}
+
+.menu {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(10, 10, 10, 0.55);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 40px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #f5d7df;
+}
+
+.menu-links a {
+  color: #f3f3f3;
+}
+
+  .menu-links a:hover,
+  .menu-links a.ativo {
+    color: #d88ca1;
+  }
+
+
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .menu-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
