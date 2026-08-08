@@ -88,16 +88,112 @@ body {
     color: #d88ca1;
   }
 
+.footer {
+  width: 100%;
+  padding: 18px 20px;
+  text-align: center;
+  color: #f5d7df;
+  background: rgba(10, 10, 10, 0.75);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  box-sizing: border-box;
+}
+
+  .footer p {
+    margin: 3px 0;
+    font-size: 14px;
+  }
+
+  .footer .dev {
+    font-size: 12px;
+    color: #aaa;
+  }
+
+    .footer .dev span {
+      color: #d88ca1;
+      font-weight: 600;
+    }
 
 
 @media (max-width: 768px) {
   .menu {
-    flex-direction: column;
-    gap: 15px;
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
   }
 
-  .menu-links {
-    flex-direction: column;
-    align-items: center;
+  /* Logo à esquerda */
+  .logo {
+    font-size: 22px;
+    flex: 1;
+    text-align: left;
   }
-}
+
+  /* WhatsApp fica ao lado da logo */
+  .menu-whats {
+    padding: 7px 12px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  /* Links ficam em uma linha abaixo */
+  .menu-links {
+    order: 3;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+  }
+
+    .menu-links a {
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+  .conteudo {
+    padding: 0;
+  }
+
+  @media (max-width: 768px) {
+    .menu {
+      padding: 10px 14px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo {
+      flex: 1;
+      font-size: 22px;
+      text-align: left;
+    }
+
+    .menu-whats {
+      padding: 7px 12px;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .menu-links {
+      order: 3;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 14px;
+    }
+
+      .menu-links a {
+        font-size: 12px;
+        white-space: nowrap;
+      }
+
+    .conteudo {
+      padding: 20px 14px;
+      background: transparent !important;
+    }
+  }
