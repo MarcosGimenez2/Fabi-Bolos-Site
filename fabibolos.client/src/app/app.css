@@ -27,6 +27,7 @@ body {
   display: flex;
   gap: 28px;
   margin: 0;
+  font-size: 22px;
   padding: 0;
 }
 
@@ -40,6 +41,7 @@ body {
     .menu-links a:hover,
     .menu-links a.ativo {
       color: #b04d6d;
+      font-size: 20px
     }
 
 .menu-whats {
@@ -86,6 +88,7 @@ body {
   .menu-links a:hover,
   .menu-links a.ativo {
     color: #d88ca1;
+    font-size: 20px
   }
 
 .footer {
