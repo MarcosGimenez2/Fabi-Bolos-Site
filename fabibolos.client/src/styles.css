@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import '@fortawesome/fontawesome-free/css/all.min.css';
+
 html, body {
   margin: 0;
   padding: 0;
@@ -7,13 +8,25 @@ html, body {
 }
 
 body {
-  background: url('/Imagens/hero-background.png') center center / cover no-repeat fixed;
+  position: relative;
+  background: transparent;
 }
 
+  /* Fundo fixo da página inteira */
   body::before {
     content: '';
     position: fixed;
     inset: 0;
-    background: rgba(0,0,0,0.45);
+    background-image: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url('/Imagens/hero-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     z-index: -1;
   }
+
+@media (max-width: 768px) {
+  body::before {
+    background-size: cover;
+    background-position: center center;
+  }
+}
